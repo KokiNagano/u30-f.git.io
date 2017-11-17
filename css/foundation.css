@@ -5812,7 +5812,7 @@ a.thumbnail {
  
 .googlecal {
   position: relative;
-  padding-bottom: 100%; /* 縦横比 */
+  padding-bottom: 80%; /* 縦横比 */
   height: 0;
   overflow: hidden;
 }
@@ -5820,8 +5820,8 @@ a.thumbnail {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80% !important;
-  height: 80% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
  
 @media only screen and (min-width: 600px) {
