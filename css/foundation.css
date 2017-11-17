@@ -5820,8 +5820,8 @@ a.thumbnail {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 80% !important;
+  height: 80% !important;
 }
  
 @media only screen and (min-width: 600px) {
