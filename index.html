@@ -122,24 +122,57 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="/u30-f.github.io/js/vendor/foundation.js"></script>
     <script type="text/javascript" src="/u30-f.github.io/js/japanmap/jquery.japan-map.js"></script>
-            <script>
-            $(function(){
-                $("#map-container").japanMap({
+<script>
+        $(function(){
+
+            var areas = [
+                {code : 1, name: "", color: "#aaa", hoverColor: "#aaa", prefectures: [1]},
+                {code : 2, name: "",   color: "#aaa", hoverColor: "#aaa", prefectures: [2,3,4,5,6,7]},
+                {code : 3, name: "関東",   color: "#7ecfea", hoverColor: "#b7e5f4", prefectures: [8,9,10,11,12,13,14]},
+                {code : 4, name: "中部",   color: "#7cdc92", hoverColor: "#aceebb", prefectures: [15,16,17,18,19,20,21,22,23]},
+                {code : 5, name: "近畿",   color: "#ffe966", hoverColor: "#fff19c", prefectures: [24,25,26,27,28,29,30]},
+                {code : 6, name: "",   color: "#aaa", hoverColor: "#aaa", prefectures: [31,32,33,34,35]},
+                {code : 7, name: "",   color: "#aaa", hoverColor: "#aaa", prefectures: [36,37,38,39]},
+                {code : 8, name: "",   color: "#aaa", hoverColor: "#aaa", prefectures: [40,41,42,43,44,45,46]},
+                {code : 9, name: "",   color: "#aaa", hoverColor: "#aaa", prefectures: [47]},
+            ];
+
+        
+            $("#map-container").japanMap({
+    width:600,
+                    areas  : areas,
+                    selection : "area",
+                    borderLineWidth: 0.25,
+                    drawsBoxLine : false,
+                    movesIslands : true,
+                    showsAreaName : true,
+                    font : "MS Mincho",
+                    fontSize : 13,
+        fontColor :"#777",
+                    fontShadowColor : "white",
                     onSelect : function(data){
-                        alert(data.name);
+        location.href = areaLinks[data.area.code];
                     }
-                });
             });
-        </script>
-        <script>
-            $(function(){
-                $("#map-container").japanMap({
+            $("#map-container-phone").japanMap({
+    width:330,
+                    areas  : areas,
+                    selection : "area",
+                    borderLineWidth: 0.25,
+                    drawsBoxLine : false,
+                    movesIslands : true,
+                    showsAreaName : true,
+                    font : "MS Mincho",
+                    fontSize : 13,
+        fontColor :"#777",
+                    fontShadowColor : "white",
                     onSelect : function(data){
-                        alert(data.name);
-                    }
-                });
+        location.href = areaLinks[data.area.code];
+                }
             });
-        </script>
+
+        });
+    </script>
     <script>
       $(document).foundation();
     </script>
