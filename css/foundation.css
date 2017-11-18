@@ -5804,6 +5804,8 @@ a.thumbnail {
 .long-delay {
   animation-delay: 700ms !important; }
 
+/* google calendar */
+
 .cal_wrapper {
   max-width: 800px; /* 最大幅 */
   min-width: 300px; /* 最小幅 */
