@@ -58,26 +58,7 @@
       <a id="member"><h2>各地のファシリテーター紹介</h2></a>
     </div>
     <!-- JapanMap-->
-      <div id="map-container">
-        <script>
-            $(function(){
-                $("map-container").japanMap({
-                    onSelect : function(data){
-                        alert(data.name);
-                    }
-                });
-            });
-        </script>
-        <script>
-            $(function(){
-                $("map-container").japanMap({
-                    onSelect : function(data){
-                        alert(data.name);
-                    }
-                });
-            });
-        </script>
-      </div>
+      <div id="map-container"></div>
 
     <div class="row small-up-2 large-up-4">
       <div class="column">
@@ -141,6 +122,24 @@
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="/u30-f.github.io/js/vendor/foundation.js"></script>
     <script type="text/javascript" src="/u30-f.github.io/js/japanmap/jquery.japan-map.js"></script>
+            <script>
+            $(function(){
+                $("#map-container").japanMap({
+                    onSelect : function(data){
+                        alert(data.name);
+                    }
+                });
+            });
+        </script>
+        <script>
+            $(function(){
+                $("#map-container").japanMap({
+                    onSelect : function(data){
+                        alert(data.name);
+                    }
+                });
+            });
+        </script>
     <script>
       $(document).foundation();
     </script>
