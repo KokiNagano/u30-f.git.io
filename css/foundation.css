@@ -5894,6 +5894,7 @@ a.thumbnail {
 
 .hero-full-screen .top-bar .menu a {
   color: rgba(240,236,232,1);
+  text-align: right;
   font-weight: bold;
 }
 
