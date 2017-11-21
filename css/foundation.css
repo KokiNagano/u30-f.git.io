@@ -22,7 +22,7 @@
      */
 html {
   font-family: sans-serif;
-  background-color: rgba(r221,202,175,1);
+  background-color: rgba(221,202,175,1);
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -37,7 +37,7 @@ html {
      * Remove the margin in all browsers (opinionated).
      */
 body {
-  background: rgba(r221,202,175,1);
+  background: rgba(221,202,175,1);
   margin: 0; }
 
 /**
