@@ -26,7 +26,7 @@
 
         
             $("#map-container").japanMap({
-    width:600,
+                    width:600,
                     areas  : areas,
                     selection : "area",
                     borderLineWidth: 0.25,
@@ -35,14 +35,14 @@
                     showsAreaName : true,
                     font : "MS Mincho",
                     fontSize : 13,
-        fontColor :"#777",
+                    fontColor :"#777",
                     fontShadowColor : "white",
                     onSelect : function(data){
-        location.href = areaLinks[data.area.code];
+                    location.href = areaLinks[data.area.code];
                     }
             });
             $("#map-container-phone").japanMap({
-    width:330,
+                    width:330,
                     areas  : areas,
                     selection : "area",
                     borderLineWidth: 0.25,
@@ -51,10 +51,10 @@
                     showsAreaName : true,
                     font : "MS Mincho",
                     fontSize : 13,
-        fontColor :"#777",
+                    fontColor :"#777",
                     fontShadowColor : "white",
                     onSelect : function(data){
-        location.href = areaLinks[data.area.code];
+                    location.href = areaLinks[data.area.code];
                 }
             });
 
