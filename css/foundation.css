@@ -5880,7 +5880,7 @@ a.thumbnail {
 }
 
 .hero-full-screen .top-bar .menu-text {
-  color: #fefefe;
+  color: rgba(111,097,082,1);
 }
 
 .hero-full-screen .top-bar .menu li {
@@ -5893,7 +5893,7 @@ a.thumbnail {
 }
 
 .hero-full-screen .top-bar .menu a {
-  color: rgba(111,097,082,0);
+  color: rgba(111,097,082,1);
   font-weight: bold;
 }
 
