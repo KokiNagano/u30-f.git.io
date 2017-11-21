@@ -5833,70 +5833,15 @@ a.thumbnail {
   }
 }
 
-/*Hero header */
-.hero-full-screen {
-  height: 100vh;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+/*Hero header 
+
   background: url("/u30-f.github.io/image/top1.jpg") center center no-repeat;
   background-size: cover;
 }
 
-.hero-full-screen .middle-content-section {
-  text-align: center;
-  color: #fefefe;
-}
+*/
 
-.hero-full-screen .top-content-section {
-  width: 100%;
-}
-
-.hero-full-screen .bottom-content-section {
-  padding: 1rem;
-}
-
-.hero-full-screen .bottom-content-section svg {
-  height: 3.75rem;
-  width: 3.75rem;
-  fill: #fefefe;
-}
-
-.hero-full-screen .top-bar {
-  background: transparent;
-}
-
-.hero-full-screen .top-bar .menu {
-  background: transparent;
-}
-
-.hero-full-screen .top-bar .menu-text {
-  color: rgba(111,097,082,1);
-}
-
-.hero-full-screen .top-bar .menu li {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.hero-full-screen .top-bar .menu a {
-  color: rgba(240,236,232,1);
-  font-weight: bold;
-}
-
+/*sticky-shrinknav*/
 
 body {
   padding-top: 330px;
@@ -5939,7 +5884,6 @@ body {
   color: #fefefe;
 }
 
-/* sticky-shrinknav */
 .sticky-shrinknav-header {
   width: 100%;
   height: 100%;
@@ -5977,6 +5921,3 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
           transform: scale(0);
   transition: all 0.3s ease;
 }
-
-
-
