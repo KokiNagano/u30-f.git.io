@@ -443,7 +443,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: rgba(240,240,240,0);
+  background: rgba(230,230,230,0);
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -6059,4 +6059,8 @@ a.thumbnail {
 
 .sticky-container {
   z-index: 5;
+}
+
+#about{
+ color: #000;
 }
