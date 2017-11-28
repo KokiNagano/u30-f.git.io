@@ -126,12 +126,3 @@
 
 
 }(jQuery));
-
-$("#fakeloader").fakeLoader({
-timeToHide:1200, //アイコンが表示される時間(ミリ秒)
-zIndex:"999",//zIndexの値
-spinner:"spinner1",//ローディングアイコンの種類'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-bgColor:"#2ecc71", //RGBもしくはRGBAの16進数の値
-//imagePath:"yourPath/customizedImage.gif" //オリジナル画像を使用する場合の画像へのパス
-});
-
