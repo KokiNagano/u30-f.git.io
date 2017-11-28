@@ -127,6 +127,6 @@
 
 }(jQuery));
 
-
+$("#fakeloader").fakeLoader();
 
 
