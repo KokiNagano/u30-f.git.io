@@ -11724,11 +11724,22 @@ __WEBPACK_IMPORTED_MODULE_1__home_deployer_sites_node_foundation_customizer_node
 /***/ })
 /******/ ]);
 
-var headerHight = $("data-sticky-container").outerHeight();
-$("a").click(function() {
-    var href = $(this).attr("href");
-    var target = $(href == "#" || href == "" ? "body" : href);
-    var position = target.offset().top - headerHight;
-    $("html, body").animate({ scrollTop: position }, 500, "swing");
-    //return false;
+//スムーズスクロール
+jQuery(function(){
+  // ★　任意のズレ高さピクセル数を入力　↓
+  var headerHight = 100;
+   // #で始まるアンカーをクリックした場合に処理
+   jQuery('a[href^=#]').click(function() {
+    // スクロールの速度
+    var speed = 400; // ミリ秒
+    // アンカーの値取得
+    var href= jQuery(this).attr("href");
+    // 移動先を取得
+    var target = jQuery(href == "#" || href == "" ? 'html' : href);
+    // 移動先を数値で取得
+    var position = target.offset().top-headerHight; // ※　-headerHightでズレの処理
+    // スムーズスクロール
+    jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+   });
 });
