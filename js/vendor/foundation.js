@@ -11725,7 +11725,7 @@ __WEBPACK_IMPORTED_MODULE_1__home_deployer_sites_node_foundation_customizer_node
 /******/ ]);
 
 //スムーズスクロール
-var headerHight = $("top-bar topbar-responsive").outerHeight();
+var headerHight = $("data-sticky-container").outerHeight();
 $("a").click(function() {
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? "body" : href);
