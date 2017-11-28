@@ -5857,6 +5857,7 @@ a.thumbnail {
 .hero-full-screen .middle-content-section {
   text-align: center;
   color: #fefefe;
+  margin: auto;
 }
 
 .hero-full-screen .top-content-section {
