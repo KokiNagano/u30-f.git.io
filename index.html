@@ -173,11 +173,13 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="/u30-f.github.io/js/fakeloader/fakeLoader.js"></script>
     <script src="/u30-f.github.io/js/vendor/foundation.js"></script>
-    <script type="text/javascript" src="/u30-f.github.io/js/japanmap/jquery.japan-map.js"></script>
-    <script type="text/javascript" src="/u30-f.github.io/js/japanmap/main.js"></script>
-        <script>
+    <script>
+      $(document).foundation();
+    </script>
+    
+    <script src="/u30-f.github.io/js/fakeloader/fakeLoader.js"></script>
+    <script>
     $("#fakeloader").fakeLoader({
         timeToHide:1200, //アイコンが表示される時間(ミリ秒)
         zIndex:"999",//zIndexの値
@@ -185,10 +187,6 @@
         bgColor:"#2c3840", //RGBもしくはRGBAの16進数の値
         //imagePath:"yourPath/customizedImage.gif" //オリジナル画像を使用する場合の画像へのパス
         });
-      </script>
-
-    <script>
-      $(document).foundation();
     </script>
 
 </footer>
