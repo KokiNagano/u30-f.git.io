@@ -106,7 +106,11 @@
 
   <!--card's follow button-->
   <div class="card-user-button">
-    <a href="#" class="hollow button">もっと見る</a>
+    <button class="open-options hollow button">もっと見る</button>
+<div id="modal-options" data-izimodal-group="group1" data-izimodal-loop="" data-izimodal-title="長野 紘貴（こうき）" data-izimodal-subtitle="岡山県岡山市">
+  <center><img src="/u30-f.github.io/image/prof-koki.jpg" alt="" class="user-image" style="border-radius: 50%;"  width="200px" height="200px"></center>
+  <p><br>＜プロフィール＞<br>岡山市出身。大学時代に「対話の場」に出会い、ほしい未来をみんなでつくる「共創・対話の場」がもっとあったらいいな〜と思いました。「とりあえずやってみよう！」とクラウドファンディングで資金調達をして、対話の場を開き始めたのが２０１４年。それから、「やりたいこと×やるべきこと×やれること」を考え行動しています。</p>
+</div>
   </div>
 </div>
 
@@ -137,7 +141,7 @@
     <a href="#" class="hollow button">もっと見る</a>
   </div>
 </div>
-
+</div>
     <hr>
 
     <div class="row column text-center">
@@ -150,7 +154,6 @@
         <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
       </div>
     </div>
-</div>
     <hr>
 
     <div class="row column text-center">
@@ -198,7 +201,7 @@
     </script>
     <script src="/u30-f.github.io/js/izmodal/iziModal.min.js"></script>
     <script>
-      $(document).on('click', '.open-options', function(event) {
+      $(document).on('click', 'card-user-button .open-options', function(event) {
   event.preventDefault();
   $('#modal-options').iziModal('open');
 });
