@@ -8,7 +8,8 @@ $('#modal-options').iziModal({
   width: 400, //横幅
   overlayColor: 'rgba(0, 0, 0, 0.5)', //モーダルの背景色
   transitionIn: 'fadeInUp', //表示される時のアニメーション
-  transitionOut: 'fadeOutDown' //非表示になる時のアニメーション
+  transitionOut: 'fadeOutDown', //非表示になる時のアニメーション
+  padding: 20
 });
 
 $(document).on('click', '.open-options2', function(event) {
