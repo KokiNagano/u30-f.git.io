@@ -30,7 +30,7 @@
 /*Hero header  */
 
 .hero-full-screen {
-  height: 90vh;
+  height: 100vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
