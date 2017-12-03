@@ -116,6 +116,36 @@
       </div>
 </div>
 </div>
+
+<div class="small-4 cell">
+<div class="card-user-container">
+
+  <!--card's image-->
+  <div class="card-user-avatar">
+    <img src="/u30-f.github.io/image/prof-hide.jpg" alt="" class="user-image">
+  </div>
+
+  <!--user info name, bio and location-->
+  <div class="card-user-bio">
+    <h4>難波 佳希</h4>
+    <p>小学校教員 / ファシリテーター </p>
+    <span class="location"><span class="location-icon fa fi-marker"></span>
+    <span class="location-text">高知県高知市</span></span>
+  </div>
+
+  <!--card's follow button-->
+      <div class="card-user-button">
+        <button class="open-options3 hollow button">もっと見る</button>
+            <div id="modal-options3" data-izimodal-group="group1" data-izimodal-loop="" data-izimodal-title="難波 佳希（よしき）" data-izimodal-subtitle="高知県高知市">
+      <center><img src="/u30-f.github.io/image/prof-yoshiki.jpg" alt="" class="user-image" style="border-radius: 50%;"  width="200px" height="200px"></center>
+      <p><br>＜プロフィール＞<br>　1993年6月25日生まれ。岡山県出身。24歳。<br>
+　学生時代、国際NGOオックスファム・ジャパンに所属し、社会変革のためのキャンペーンやワークショップをキャンパス内外で実施。その後、人との対話により自分や他者の行動が変わることに興味が湧き、高校生、大学生、社会人の対話の場を創出。大学4年時に、難波ファシリテーション事務所を設立し、中央省庁、自治体、NPO、市民団体等の10人から100人までの食、政治、防災、キャリアなど多種多様な研修・ワークショップのファシリテーターを務める。アイデアソン、マイプロジェクトの企画・運営にも携わる。大学卒業後は、同事務所の運営を続けながら、学校法人日吉学園にて自然体験学習中心の私立小学校設立の立ち上げに参画し、現在準備中。昨年度より、こうち起業サロンサブコーディネーターを務め、起業支援に関わる。
+</p>
+    </div>
+      </div>
+</div>
+</div>
+
 </div>
     <hr>
 
@@ -195,6 +225,20 @@ $('#modal-options').iziModal({
   $('#modal-options2').iziModal('open');
 });
 $('#modal-options2').iziModal({
+  headerColor: '#26A69A', //ヘッダー部分の色
+  width: 400, //横幅
+  overlayColor: 'rgba(0, 0, 0, 0.5)', //モーダルの背景色
+  transitionIn: 'fadeInUp', //表示される時のアニメーション
+  transitionOut: 'fadeOutDown', //非表示になる時のアニメーション
+  padding: 20
+});
+    </script>
+           <script>
+      $(document).on('click', '.open-options3', function(event) {
+  event.preventDefault();
+  $('#modal-options3').iziModal('open');
+});
+$('#modal-options3').iziModal({
   headerColor: '#26A69A', //ヘッダー部分の色
   width: 400, //横幅
   overlayColor: 'rgba(0, 0, 0, 0.5)', //モーダルの背景色
