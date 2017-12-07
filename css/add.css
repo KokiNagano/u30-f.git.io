@@ -349,9 +349,15 @@
 
 /* google form*/
 
-.iframe-wrap {
-  position: relative;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+.iframeWrapper {
+position: relative;
+width: 100%;
+padding-top: 75%;
+}
+.iframeWrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
