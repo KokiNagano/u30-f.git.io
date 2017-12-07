@@ -270,6 +270,10 @@
  color: #2c3840;
 }
 
+#contact{
+ color: #2c3840;
+}
+
 /*card*/
 
 .card-user-container {
@@ -348,7 +352,6 @@
 .iframe-wrap {
   position: relative;
   width: 85%;
-  padding-top: 120%;
   margin-left: auto;
   margin-right: auto;
 }
