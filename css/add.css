@@ -2,7 +2,7 @@
 
 .cal_wrapper {
   max-width: 800px; /* 最大幅 */
-  min-width: 300px; /* 最小幅 */
+  width: 90%; /* 最小幅 */
   margin: 2.0833% auto;
 }
  
