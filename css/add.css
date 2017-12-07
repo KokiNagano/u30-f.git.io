@@ -349,12 +349,12 @@
 
 /* google form*/
 
-.iframe-Wrapper {
+.iframe-wrapper {
 position: relative;
 width: 100%;
 padding-top: 75%;
 }
-.iframe-Wrapper iframe {
+.iframe-wrapper iframe {
 position: absolute;
 top: 0;
 left: 0;
