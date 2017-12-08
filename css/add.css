@@ -354,8 +354,7 @@ position: relative;
 max-width: 760px;
 width: 90%;
 padding-top: 90%;
-margin-bottom: 15%;
-margin: auto;
+margin: auto auto auto -15%;
 overflow: hidden;
 }
 .iframe-wrapper iframe {
