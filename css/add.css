@@ -262,7 +262,7 @@
  color: #2c3840;
 }
 
-#blog{
+#news{
  color: #2c3840;
 }
 
@@ -446,10 +446,8 @@ margin-top: -15%;
 .news-card .card-section .news-card-author .news-card-author-image img {
   border-radius: 50%;
   margin-right: 0.6em;
-
     width: 2.5rem;
     height: 2.5rem;
-    padding: 0.9375rem;
 }
 
 .news-card .card-section .news-card-author .news-card-author-name {
