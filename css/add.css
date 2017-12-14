@@ -446,6 +446,10 @@ margin-top: -15%;
 .news-card .card-section .news-card-author .news-card-author-image img {
   border-radius: 50%;
   margin-right: 0.6em;
+
+    width: 11.875rem;
+    height: 11.875rem;
+    padding: 0.9375rem;
 }
 
 .news-card .card-section .news-card-author .news-card-author-name {
