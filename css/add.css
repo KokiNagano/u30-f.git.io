@@ -464,6 +464,7 @@ margin-top: -15%;
   padding: 1.3rem 2rem .7rem;
   border: 1px solid #cacaca;
   margin-bottom: 1rem;
+  max-width: 700px;
 }
 
 .simple-article-header .article-date-read {
